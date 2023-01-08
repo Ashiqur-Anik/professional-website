@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+#section{
+    display: flex;
+    background-image: url(img/Untitled-3.png);
+    background-repeat: no-repeat;
+}
+.header-part{
+    padding:20px 40px;
+    text-align: justify;
+}
+ a{
+    text-decoration: none;
+    background-image:linear-gradient(red, rgb(123, 6, 6));
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 5s;
+}
+ a:hover{
+    background-image:linear-gradient(black, red);
+}
+.header-part-2 img{
+    width: 400px;
+}
+span{
+    color: #ff0f3b;
+}
+
+
+
+#section-2{
+    display: flex;
+    margin-top: 30px;
+    background-image: url(img/Untitled-5.png);
+}
+.dream-area-part-2{
+    padding: 50px 40px 50px 10px;
+    text-align: justify;
+}
+
+
+
+.section-3{
+    padding: 50px;
+    background-image: url(img/Untitled-4.png);
+    background-repeat: no-repeat;
+}
+.section-3 h1{
+    margin-bottom: 50px;
+}
+.experiences-area{
+    display: flex;
+}
+.left-side{
+    width: 45%;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 10px 10px 20px  rgb(234, 177, 78);
+    border-left: 6px solid blue;
+}
+.right-side{
+    width:45% ;
+    margin-left: 10%;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(234, 177, 78);
+    border-left: 6px solid #ff0f3b;
+}
+.right-side .right-side,h4{
+    margin: 0;
+    color: #ff0f3b;
+}
