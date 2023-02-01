@@ -1,14 +1,15 @@
 body{
     margin: 0;
+    padding: 0;
 }
-#section{
-    display: flex;
+.section{
+    display:flex;
     background-image: url(img/Untitled-3.png);
     background-repeat: no-repeat;
 }
 .header-part{
     padding:20px 40px;
-    text-align: justify;
+    
 }
  a{
     text-decoration: none;
@@ -72,4 +73,67 @@ span{
 .right-side .right-side,h4{
     margin: 0;
     color: #ff0f3b;
+}
+
+
+
+
+@media screen and (max-width:600px)
+{
+   
+    h1{
+        text-align: center;
+    }
+    .section{
+        display: inline-block;
+        background-image: url(img/Untitled-3.png);
+        background-repeat: no-repeat;
+    }
+    .header-part{
+      padding: 10px 40px;  
+      margin: 0px;
+    }
+    .header-part p{
+        text-align: justify;
+    }
+    #section-2{
+        display: inline-block;
+        margin-top: 30px;
+        background-image: url(img/Untitled-5.png);
+    }
+    
+    .dream-area-part-2 h3{
+        font-size: 25px;
+    }
+    .experiences-area{
+        display: inline-block;
+    }
+   .dream-area-part-2 h3{
+    margin-left: 35px;
+   } 
+   .dream-area-part-2{
+    padding: 0;
+   }
+   .dream-area-part-2 p{
+    margin-left: 35px;
+    width: 330px;
+   }
+   .section-3 h3{
+    text-align: center;
+   }
+   .experiences-area{
+    width: 300px;
+    height: 500px;
+   }
+   .left-side{
+    width: 300px;
+    height: 200px;
+    margin-left: 0;
+   }
+   .right-side{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 0;
+    }
 }
